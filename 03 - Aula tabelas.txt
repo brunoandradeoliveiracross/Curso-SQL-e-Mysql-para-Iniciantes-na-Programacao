@@ -1,4 +1,3 @@
-```sql
 -- Para criar tabelas se usa o codigo abaixo:
 
 CREATE TABLE cliente(
