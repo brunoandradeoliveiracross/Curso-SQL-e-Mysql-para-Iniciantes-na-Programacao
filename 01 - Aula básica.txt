@@ -1,0 +1,7 @@
+Você deve instalar Wampserver e Workbench na sua maquina para criar banco de dados
+
+
+Links :
+
+https://www.wampserver.com/en/
+https://www.mysql.com/products/workbench/ 
