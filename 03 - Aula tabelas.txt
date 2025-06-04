@@ -1,0 +1,30 @@
+-- Para criar tabelas se usa o codigo abaixo:
+
+CREATE TABLE cliente(
+
+id int AUTO_INCREMENT PRIMARY KEY,
+nome varchar(100),
+telefone varchar (20),
+cpf varchar(20),
+endereco varchar(255)
+
+) ENGINE=InnoDB DEFAULT CHARSET = UTF8;
+
+-- Neste comando criamos uma tabela com colunas, sendo a coluna id do cliente
+definido como número inteiro e as colunas nome, telefone, cpf e endereco definido
+como varchar(x) sendo o número a quantidade de caracteres permitido inserir no campo.
+
+-- Note que no campo id também foi usado os atributos AUTO_INCREMENT que vai adicionar
+um número automaticamente ao inserir dados na tabela e PRIMARY KEY que define 
+o id como chave primaria para identificar o cliente
+
+-- No final do comando foi usado ENGINE=InnoDB DEFAULT CHARSET = UTF8; para definir
+a Engine InnoDB que suporta chave estrangeira e a adição de caracteres utf8 na tabela.
+
+-- Para deletar a tabela basta usar o comando abaixo.
+
+DROP TABLE cliente;
+
+-- Para deletar apenas dados da tabela e não a  tabela em si se usa o seguinte comando
+
+TRUNCATE TABLE cliente;

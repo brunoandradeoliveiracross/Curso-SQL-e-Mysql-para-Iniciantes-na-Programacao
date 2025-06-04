@@ -1,0 +1,19 @@
+-- Clique no wampserver e aguarde ele ligar os servidores, no menu perto do relogio
+do seu computador ele vai estar verde indicando que esta ligado, sem seguida
+abra o workbench e clique no host para abrir o painel de banco de dados local 
+onde você vai poder digitar comandos ou se preferir no wampserver selecione a opção
+mysql e depois terminal e use o terminal para digitar seus códigos.
+
+-- Primeiro comando é para criar banco de dados 
+Segundo comando é para deletar banco de dados.
+
+CREATE DATABASE nomedobanco; 
+DROP DATABASE nomedobanco;
+
+-- Caso você utilize o workbench basta apertar 'ctrl + enter' para executar o código digitado.
+
+-- Agora Crie um banco de dados chamado loja;
+
+CREATE DATABASE loja;
+
+
